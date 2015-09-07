@@ -191,8 +191,9 @@ h1.about {
 	letter-spacing: 2px; 
 	font-size: 18px; 
 	font-weight: 600; 
-	background: url(../img/profile.png) 
-	no-repeat top center; 
+	background: url(../img/profile.png) no-repeat top center; 
+	background-size:50px;
+	; 
 	padding-top: 75px; 
 }
 h2.frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/frame-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
@@ -240,7 +241,15 @@ header ul { padding-top: 35px; }
 header ul li { list-style: none; float: left; text-transform: uppercase; letter-spacing: 2px; }
 header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .r_spacer { margin-right: 180px; }
-.intro { padding: 115px 0; background-color: #fbfbfb; }
+.intro { padding: 95px 0; background-color: #F5F4F4; }
+.work {
+	padding: 95px; 
+	background-color:;
+}
+.portfolio{
+	padding: 95px;
+	background-color: #F5F4F4;
+}
 .section-1 { background: url(../img/left-box-1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-2 { background: url(../img/left-box-2.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-3 { background: url(../img/red-frame.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
@@ -272,7 +281,7 @@ p.twitter-post { color: #848789; font-size: 24px; font-style: italic; font-weigh
 .right-box-2 { width: 50%; float: left; }
 .right-box-3 { width: 50%; float: right; }
 .right-box-3 img, .right-box-2 img, .right-box-1 img { width: 100%; }
-.effects { background-color: #282f35; }
+.effects { /*background-color: #282f35;*/ }
 .effects .img { position: relative; }
 .effects .img img { display: block; margin: 0; padding: 0; max-width: 100%; height: auto; }
 .overlay { z-index: 10 }
@@ -317,7 +326,7 @@ footer p { font-size: 13px; margin: 0; }
 	position: absolute;
 	top: 50%; left: 50%;
 	width: 6em; height: 6em;
-	margin: -2em; /* 2em = 4em/2 */ /* half the width */
+	margin-left: -5em; /* 2em = 4em/2 */ /* half the width */
 }
 .circle-container a.center{
 	display: block;
@@ -325,7 +334,7 @@ footer p { font-size: 13px; margin: 0; }
 	position: absolute;
 	top: 45%; left: 49%;
 	width: 9em; height: 9em;
-	margin: -2em; /* 2em = 4em/2 */ /* half the width */
+	margin-left: -5em; /* 2em = 4em/2 */ /* half the width */
 }
 .circle-container img { display: block; width: 100%; }
 .piinpoint { transform: rotate(-18deg) translate(20em) rotate(18deg); } /* 12em = half the width of the wrapper */

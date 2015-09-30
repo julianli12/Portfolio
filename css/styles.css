@@ -173,17 +173,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* ==========================================================================
 Headings
 ========================================================================== */
-h1.chain { 
-	text-align: center; 
-	text-transform: uppercase; 
-	color: #353738; 
-	letter-spacing: 2px; 
-	font-size: 18px; 
-	font-weight: 600; 
-	background: url(../img/cog-icon.png) 
-	no-repeat top center; 
-	padding-top: 75px; 
-}
 h1.about { 
 	text-align: center; 
 	text-transform: uppercase; 
@@ -192,6 +181,42 @@ h1.about {
 	font-size: 18px; 
 	font-weight: 600; 
 	background: url(../img/profile.png) no-repeat top center; 
+	background-size:50px;
+	; 
+	padding-top: 75px; 
+}
+h1.portfolio { 
+	text-align: center; 
+	text-transform: uppercase; 
+	color: #353738; 
+	letter-spacing: 2px; 
+	font-size: 18px; 
+	font-weight: 600; 
+	background: url(../img/portfolio.png) no-repeat top center; 
+	background-size:50px;
+	; 
+	padding-top: 75px; 
+}
+h1.job { 
+	text-align: center; 
+	text-transform: uppercase; 
+	color: #353738; 
+	letter-spacing: 2px; 
+	font-size: 18px; 
+	font-weight: 600; 
+	background: url(../img/job.png) no-repeat top center; 
+	background-size:50px;
+	; 
+	padding-top: 75px; 
+}
+h1.contact { 
+	text-align: center; 
+	text-transform: uppercase; 
+	color: #353738; 
+	letter-spacing: 2px; 
+	font-size: 18px; 
+	font-weight: 600; 
+	background: url(../img/contact.png) no-repeat top center; 
 	background-size:50px;
 	; 
 	padding-top: 75px; 
@@ -236,7 +261,7 @@ nav { height: 85px; margin-top: 30px; position: relative; }
 	left: 327px; 
 }
 .responsive-logo { display: hidden; }
-header { /*background-color: #f4f5fc;*/ background: url(../img/hero-bg.jpg) no-repeat top center #f4f5fc; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 100vh;}
+header { /*background-color: #f4f5fc;*/ background: url(../img/main-bg.jpg) no-repeat top center #f4f5fc; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 100vh; background-attachment: fixed;}
 header ul { padding-top: 35px; }
 header ul li { list-style: none; float: left; text-transform: uppercase; letter-spacing: 2px; }
 header ul li a { display: block; margin: 0 30px; color: #4d4959; }
@@ -273,14 +298,10 @@ p.twitter-post { color: #848789; font-size: 24px; font-style: italic; font-weigh
 .left-box-2 { width: 50%; float: right; }
 .left-box-btm { width: 100%; }
 .left-box-1 img, .left-box-2 img, .left-box-btm img { width: 100%; }
-.mid-box-1 { width: 50%; float: left; }
-.mid-box-2 { width: 50%; float: right; }
+.mid-box-1 { width: 100%; float: left; }
 .mid-box-1 img { width: 100%; height: 100%; }
-.mid-box-2 img { width: 100%; height: 100%; }
 .right-box-1 { width: 100%; }
-.right-box-2 { width: 50%; float: left; }
-.right-box-3 { width: 50%; float: right; }
-.right-box-3 img, .right-box-2 img, .right-box-1 img { width: 100%; }
+.right-box-2 { width: 100%; float: left; }
 .effects { /*background-color: #282f35;*/ }
 .effects .img { position: relative; }
 .effects .img img { display: block; margin: 0; padding: 0; max-width: 100%; height: auto; }

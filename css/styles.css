@@ -240,8 +240,7 @@ User Styles
 .pullcontainer a#pull { display: none; }
 a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
 a:hover { color: #64c29e; text-decoration: none; }
-p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
-p.text-intro { font-size: 18px; }
+p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; /* line-height: 1.8em; margin-top: 25px; */ }
 .hero { 
 	-webkit-background-size: cover; 
 	-moz-background-size: cover; 
@@ -271,6 +270,15 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 	padding: 95px; 
 	background-color:;
 }
+.me {
+	text-align: left;
+}
+.me2{
+	font-size:18px;
+	text-align: left;
+	font-weight: bold;
+	color:#127998;
+}
 .portfolio{
 	padding: 95px;
 	background-color: #F5F4F4;
@@ -295,6 +303,8 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .flex-twitter-icon { width: 32px; height: 27px; background: url(../img/twitter-bird.png) no-repeat center center; margin: 0 auto; }
 p.twitter-post { color: #848789; font-size: 24px; font-style: italic; font-weight: 300; margin-bottom: 100px; }
 .left-box-1 { width: 50%; float: left; }
+.left-box { width: 50%; float: left; }
+.right-box { width: 50%; float: left; padding-left:15%; padding-top:5%;}
 .left-box-2 { width: 50%; float: right; }
 .left-box-btm { width: 100%; }
 .left-box-1 img, .left-box-2 img, .left-box-btm img { width: 100%; }

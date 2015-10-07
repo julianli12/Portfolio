@@ -260,7 +260,7 @@ nav { height: 85px; margin-top: 30px; position: relative; }
 	left: 327px; 
 }
 .responsive-logo { display: hidden; }
-header { /*background-color: #f4f5fc;*/ background: url(../img/main-bg.jpg) no-repeat top center #f4f5fc; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 100vh; background-attachment: fixed;}
+header { /*background-color: #f4f5fc;*/ background: url(../img/main-bg.gif) no-repeat top center #f4f5fc; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 100vh; background-attachment: fixed;}
 header ul { padding-top: 35px; }
 header ul li { list-style: none; float: left; text-transform: uppercase; letter-spacing: 2px; }
 header ul li a { display: block; margin: 0 30px; color: #4d4959; }

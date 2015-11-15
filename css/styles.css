@@ -373,11 +373,11 @@ footer p { font-size: 13px; margin: 0; }
 	margin-left: -5em; /* 2em = 4em/2 */ /* half the width */
 }
 .circle-container img { display: block; width: 100%; }
-.piinpoint { transform: rotate(-18deg) translate(20em) rotate(18deg); } /* 12em = half the width of the wrapper */
-.eventastic { transform: rotate(54deg) translate(20em) rotate(-54deg); }
-.up { transform: rotate(126deg) translate(20em) rotate(-126deg); }
-.cp { transform: rotate(198deg) translate(20em) rotate(-198deg); }
-.d2l{ transform: rotate(275deg) translate(20em) rotate(-275deg); }
+.comingsoon1 { transform: rotate(-18deg) translate(20em) rotate(18deg); } /* 12em = half the width of the wrapper */
+.comingsoon2 { transform: rotate(54deg) translate(20em) rotate(-54deg); }
+.comingsoon3 { transform: rotate(126deg) translate(20em) rotate(-126deg); }
+.comingsoon4 { transform: rotate(198deg) translate(20em) rotate(-198deg); }
+.comingsoon5 { transform: rotate(275deg) translate(20em) rotate(-275deg); }
 
 /* this is just for showing the angle on hover */
 .circle-container a:not(.center):before {
@@ -412,11 +412,14 @@ footer p { font-size: 13px; margin: 0; }
 	top: 50%; left: 50%;
 	width: 4px; height: 4px;
 	border-radius: 50%;
-	box-shadow: 0 0 .5em .5em white;
 	margin: -2px;
-	background: deeppink;
 	opacity: .3;
+	
+/*
 	content: '';
+	background: deeppink;
+	box-shadow: 0 0 .5em .5em white;
+	*/
 }
 .circle-container:hover a:after { opacity: 1; }
 .circle-container a:hover:after { opacity: .3; }

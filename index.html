@@ -1,192 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Julian's Portfolio</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>The Story - Free Bootstrap Theme</title>
+<!--
+The Story Theme
+http://www.templatemo.com/tm-480-story
+-->
+        <!-- load stylesheets -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400">  <!-- Google web font "Open Sans" -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">                                                <!-- Bootstrap style -->
+        <link rel="stylesheet" href="css/flexslider.css">                                                   <!-- Flexslider style -->       
+        <link rel="stylesheet" href="css/templatemo-style.css">                                             <!-- Templatemo style -->
 
-		<!-- Bootstrap -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/styles.css?v=1.2" rel="stylesheet">
-		<link href="css/queries.css?v=1.2" rel="stylesheet">
-		<link rel="stylesheet" href="css/flexslider.css?v=1.2" type="text/css">
-		<link rel="stylesheet" href="css/animate.css" type="text/css">
-		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body class="page">
+        
+            
+            <!-- background images -->
+            <div class="page-bg-imgs-list">
+                <img src="img/story-bg-1.jpg" id="page-1-img" class="main-img" alt="About">
+                <img src="img/story-bg-2.jpg" id="page-2-img" alt="Portfolio">
+                <img src="img/story-bg-3.jpg" id="page-3-img" alt="Resume">
+                <img src="img/story-bg-4.jpg" id="page-4-img" alt="Contact">                            
+            </div>
+            
+            <div class="container-fluid">
 
-	<body>
-		<header>
-			<div class="container">
-				<div class="row">
-					<div class="responsive-logo"></div>
-					<div class="pullcontainer">
-						<a href="#" id="pull"><i class="fa fa-bars fa-2x"></i></a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<nav>
-							<div class="logo-holder"></div>
-							<ul class="clearfix">
-								<li><a href="#aboutme">Profile</a></li>
-								<li class="dot">|</li>
-								<li><a href="#work" class="r_spacer">Work</a></li>
-								<li><a href="#portfolio">Portfolio</a></li>
-								<li class="dot">|</li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-			<div class="hero"></div>
-		</header>
-		<div class="container-fluid intro" id="aboutme">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<h1 class="about">Profile</h1>
-					<div class="left-box">
-						<img src="img/profile2.png" alt="profile" style="width:100%">
-					</div>
-					<div class="right-box">
-						<p class="me2">Full Name</p>
-						<p class="me"> Julian Li </p><br>
-						<p class="me2">Occupation</p>
-						<p class="me"> Management Engineering Student <br>University of Waterloo</p><br>
-						<p class="me2">Interests</p>
-						<p class="me"> All Things Tech, PC Gamer <br> Visual Arts, Design Work </p><br>
-						<p class="me2">Certifications</p>
-						<p class="me">Certified Associate of Project Management (CAPM) <Br><br> Certified Associate in Lean Six Sigma <br>Yellow Belt </p>		
-						
-					</div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+                        
+                        <div class="header">
 
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid work" id="work">
-			<div class="row">
-				<h1 class="job">My Work Experience</h1>
-				<div class='circle-container'>
-					<a class='center'><img src='./img/work.png'></a>
-				    <a class='comingsoon1'><img src='./img/piinpoint.png'></a>
-				    <a class='comingsoon2'><img src='./img/eventastic.png'></a>
-				    <a class='comingsoon3'><img src='./img/UP.png'></a>
-				    <a class='comingsoon4'><img src='./img/canada-post.png'></a>
-				    <a class='comingsoon5'><img src='./img/D2L.png'></a>
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid portfolio">
-			<h1 class="portfolio" id="portfolio">Portfolio</h1>
-			<div class="row">
-				<div id="effect" class="effects clearfix">
-					<div class="col-md-4 left nopadding">
-						<div class="left-box-1">
-							<div class="img">
-								<img src="img/l1.jpg" alt="Front End">
-								<div class="overlay">
-									<a href="http://google.com/" class="expand">Front End<br> Coming Soon</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-						<div class="left-box-2 box">
-							<div class="img">
-								<img src="img/l2.jpg" alt="Back End">
-								<div class="overlay">
-									<a href="#" class="expand">Back End<br> Coming Soon</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-						<div class="left-box-btm box">
-							<div class="img">
-								<img src="img/l3.jpg" alt="Prototypes">
-								<div class="overlay">
-									<a href="#" class="expand">Prototypes<br> Coming Soon</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 mid nopadding">
-						<div class="mid-box-2 box">
-							<div class="img">
-								<img src="img/l5.jpg" alt="Graphics Design">
-								<div class="overlay">
-									<a href="#" class="expand">Graphics Design<br> Coming Soon</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="col-md-4 right nopadding">
-						<div class="right-box-1 box">
-							<div class="img">
-								<img src="img/l6.jpg" alt="is">
-								<div class="overlay">
-									<a href="#" class="expand"> Info System Designs<br> Coming Soon</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-						<div class="right-box-2 box">
-							<div class="img">
-								<img src="img/l7.jpg" alt="Resume">
-								<div class="overlay">
-									<a href="#" class="expand">Resume<br> Coming Soon</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<section class="sign_up">
-			<div class="container">
-				<h1 class="contact" id="contact">Contact Me</h1>
-				<div class="row">
-					<div class="contact2">
-						
-							<div style="margin-right:5%; width:45%; float:left; "> <a class="mailto" href="mailto:Julianli0624@gmail.com"><img src="img/email.png" alt="email" style="width:100px;"></a></div>
-							<div style="margin-left:5%; width:45%; float:left"> <img src="img/phone.png" alt="email" style="width:100px;"></a>
-			
-					</div>
+                            <!-- site title -->
+                            <header class="box box-white">
+                                <a href="javascript:void(0)" class="js-site-title">
+                                    <h1 class="box-text site-title-text">The Story</h1>    
+                                </a>            
+                            </header>
+                            
+                            <!-- site navigation -->
+                            <nav class="js-nav">
+                                <ul class="nav-items-container">
 
-					<!-- <div class="col-md-6 col-md-offset-3 sign-up">
-						<form name="signup-form">
-							<input class="signup-input" type="email" name="email_address" value="" placeholder="enter your email..." title="Please enter a valid email address." required>
-							<button type="submit" class="submit-btn">GO</button>
-						</form> 
-					</div> -->
-				</div>
-			</div>
-		</section>
-		<footer >
-			<div class="container">
-				<div class="row">
-					<p> Thank You For Your Time! </p>
-				</div>
-			</div>
-		</footer>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery.flexslider.js"></script>
-		<script src="js/scripts.js"></script>
-		<script src="js/modernizr.js"></script>
-		<script src="js/waypoints.min.js"></script>
-	</body>
+                                    <li data-nav-item-id="page-1" class="block-keep-ratio block-keep-ratio-1-1 block-width-half box box-white box-nav-item js-nav-item pull-xs-left">
+                                        <a href="#page-1" class="block-keep-ratio-content box-nav-item-link">
+                                            <span class="box-text box-text-nav-item flexbox-center">About Me</span>
+                                        </a>
+                                    </li>
+
+                                    <li data-nav-item-id="page-2" class="block-keep-ratio block-keep-ratio-1-1 block-width-half box box-white box-nav-item js-nav-item pull-xs-right">
+                                        <a href="#page-2" class="block-keep-ratio-content box-nav-item-link">
+                                            <span class="box-text box-text-nav-item flexbox-center">Portfolio</span>
+                                        </a>
+                                    </li>
+
+                                    <li data-nav-item-id="page-3" class="block-keep-ratio block-keep-ratio-1-1 block-width-half box box-white box-nav-item js-nav-item pull-xs-left">
+                                        <a href="#page-3" class="block-keep-ratio-content box-nav-item-link">
+                                            <span class="box-text box-text-nav-item flexbox-center">Resume</span>
+                                        </a>
+                                    </li>
+
+                                    <li data-nav-item-id="page-4" class="block-keep-ratio block-keep-ratio-1-1 block-width-half box box-white box-nav-item js-nav-item pull-xs-right">
+                                        <a href="#page-4" class="block-keep-ratio-content box-nav-item-link">
+                                            <span class="box-text box-text-nav-item flexbox-center">Contact</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </nav>    
+                        </div> <!-- .header -->
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                        <div class="content-wrapper js-content-wrapper">
+                            <!-- about -->
+                            <section data-page-id="page-1" class="content js-content">
+                                
+                                <header class="box box-black margin-b-20">
+                                    <h2 class="box-text page-title-text">My Story</h2>
+                                </header>
+                                
+                                <div class="content-text">
+                                    <p><b>I'm a Management Engineering student at the University of Waterloo.</b></p>
+                                    <p>For as long as I could remember, Art had been one of my go to past times. Eventually this led to my interests towards graphics design, photography and illustrations. </P>
+
+                                    <p>Out of love for aesthetic design, I became fascinated with building simple, compelling and intuitive user interfaces. I'm a strong believer that in most cases, having an unforgettable user experience is more important than idea in a start up company.</p>
+
+                                    <p><b>Other Interests</b></p>
+                                    <p>Outside of spending countless hours sitting in front of my computer. I am also a huge basketball enthusiast, volleyball and soccer were the next best thing growing up. In recent years I also picked up snowboarding, golf and Mauy tai.<p>
+                                    <p>I'm also a strong believer that travelling is theorapy for the soul, every trip I been on expanded my horizon and rejuvinated my spirit.</p>
+                                </div>            
+
+                            </section> <!-- #about -->
+
+                            <!-- gallery -->
+                            <section data-page-id="page-2" class="content content-gallery js-content">
+                                
+                                <header class="box box-black margin-b-20">
+                                    <h2 class="box-text page-title-text">Portfolio</h2>
+                                </header>
+                                
+                                <div class="content-text content-text-gallery">
+                                    
+                                    <!-- <p>Credits go to <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for images.</p> -->
+
+                                    <div class="flexslider-wrapper">
+
+                                        <div id="slider" class="flexslider">
+                                            <ul class="slides">
+                                                <li><div class="videoWrapper"><iframe style="height: 100%" src="https://www.youtube.com/embed/Vy6K42Ebf6E" frameborder="0" allowfullscreen></iframe></div></li>
+                                                <li><img src="img/slider/slides2.jpg" alt="UP Express Mockup" ></li>
+                                                <li><img src="img/slider/slides3.jpg" alt="Zazzle Mockup" ></li>
+                                                <li><img src="img/slider/slides4.jpg" alt="Poster" ></li>
+                                                <li><img src="img/slider/slide5.jpg" alt="Slide 5" ></li>
+                                                <li><img src="img/slider/slide6.jpg" alt="Slide 6" ></li>
+                                            </ul>
+                                        </div> <!-- #slider -->
+                                      
+                                        <div id="carousel" class="flexslider">
+                                            <ul class="slides">
+                                                <li><img src="img/slider/thumb1.jpg" alt="Thumbnail 1" /></li>
+                                                <li><img src="img/slider/thumb2.jpg" alt="Thumbnail 2" /></li>
+                                                <li><img src="img/slider/thumb3.jpg" alt="Thumbnail 3" /></li>
+                                                <li><img src="img/slider/thumb4.jpg" alt="Thumbnail 4" /></li>
+                                                <li><img src="img/slider/thumb5.jpg" alt="Thumbnail 5" /></li>
+                                                <li><img src="img/slider/thumb6.jpg" alt="Thumbnail 6" /></li>
+                                            </ul>
+                                        </div>  <!-- #carousel -->
+
+                                    </div>
+                                        
+                                </div>            
+
+                            </section> <!-- #gallery -->
+                            
+                            <!-- services -->
+                            <section data-page-id="page-3" class="content js-content">
+                                
+                                <header class="box box-black margin-b-20">
+                                    <h2 class="box-text page-title-text">Services</h2>
+                                </header>
+                                
+                                <div class="content-text">
+                                    <p>Download the story theme from templatemo. Quisque placerat turpis non tortor fringilla, in ornare magna eleifend. Etiam mattis varius fringilla.
+                                    </p>
+                                    <h4>Sub Title One</h4>
+                                    <p>Nullam tortor mauris, bibendum ac ex vel, auctor congue est. Aenean quis tellus molestie, laoreet massa a, maximus est. Interdum et malesuada fames ac ante ipsum primis. 
+                                    </p>
+                                    <h4>Sub Title Two</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut sapien quis ante faucibus tempus. Nam ut dui vitae tellus vehicula porttitor in nec lorem.
+                                    </p>
+                                </div>            
+
+                            </section> <!-- #services -->
+
+                            <!-- contact -->
+                            <section data-page-id="page-4" class="content js-content">
+                                
+                                <header class="box box-black margin-b-20">
+                                    <h2 class="box-text page-title-text">Contact</h2>
+                                </header>
+                                
+                                <div class="content-text">
+                                    <p>In felis turpis, tincidunt a odio interdum, ornare interdum magna. Proin leo tortor, adipiscing et volutpat tincidunt, imperdiet sit amet purus.
+                                    </p>
+                                    <form action="index.html" method="post" class="contact-form">
+
+                                        <div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group-2-col-left">
+                                            <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required/>
+                                        </div>
+                                        <div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group-2-col-right">
+                                            <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject" required/>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea id="contact_message" name="contact_message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary submit-btn">Send</button>
+
+                                    </form>                           
+                                </div>            
+
+                            </section> <!-- #contact -->
+                        </div>
+                    </div>
+
+                </div>
+                    
+                <!-- footer row -->
+                <footer class="row footer js-footer">
+                        
+                </footer>
+
+            </div>  <!-- .container-fluid -->
+
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div><!-- /#preloader -->      
+            
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script> <!-- jQuery -->
+        <script src="js/jquery.flexslider-min.js"></script> <!-- Flex Slider -->
+        <script src="js/jquery.backstretch.min.js"></script> <!-- Backstretch http://srobbin.com/jquery-plugins/backstretch/ -->
+        <script src="js/templatemo-script.js"></script> <!-- Templatemo scripts -->
+    
+    </body>
 </html>

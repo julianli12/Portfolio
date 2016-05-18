@@ -1,3 +1,45 @@
+ $(window).load( function() {
+
+        /* Load Flex slider
+        -------------------------------------------*/
+        // The slider being synced must be initialized first
+        $('#carousel').flexslider({
+            animation: "slide",
+            controlNav: false,
+            animationLoop: false,
+            slideshow: false,
+            itemWidth: 170,
+            itemMargin: 10,
+            asNavFor: '#slider'
+        });
+
+        $('#slider').flexslider({
+            animation: "slide",
+            controlNav: false,
+            animationLoop: false,
+            slideshow: false,
+            sync: "#carousel",
+            start: function() {
+
+                $('.js-content').hide();
+                
+                /* Remove preloader
+                -----------------------------------------------*/
+                $('#status').fadeOut(); // will first fade out the loading animation
+                $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+
+                /* Get hash in URL and show page content
+                ---------------------------------------------------------*/
+
+                var defaultImgSrc = $("img#" + hash + "-img").attr('src');
+                $.backstretch(defaultImgSrc, {speed: 500});                              // show background image
+
+                
+            }
+        });       
+
+    });
+
 //FLEXSLIDER
 $(window).load(function() {
   $('.flexslider').flexslider({

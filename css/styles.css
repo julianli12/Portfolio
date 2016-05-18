@@ -235,7 +235,7 @@ User Styles
 ========================================================================== */
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
+.clearfix { *zoom: 1; text-align: center}
 .pullcontainer a#pull { display: none; }
 a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
 a:hover { color: #64c29e; text-decoration: none; }
@@ -304,8 +304,15 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 p.twitter-post { color: #848789; font-size: 24px; font-style: italic; font-weight: 300; margin-bottom: 100px; }
 
 .left-box-1 { width: 50%; float: left; }
-.left-box { width: 50%; float: left; }
-.right-box { width: 50%; float: left; padding-left:15%; }
+@media only screen and (min-width: 700px){
+	.left-box { width: 50%; display:inline-block;margin-left: auto; margin-right: auto; float:left; }
+	.right-box { width: 40%; display:inline-block; float:left; margin-top:8%; margin-left:10%;}
+}
+
+@media only screen and (max-width: 700px){
+    .left-box { width: 50%; display:inline-block; margin-left: auto; margin-right: auto; }
+	.right-box { width: 100%;display:inline-block;}
+}
 .left-box-2 { width: 50%; float: right; }
 .left-box-btm { width: 100%; }
 .left-box-1 img, .left-box-2 img, .left-box-btm img { width: 100%; }

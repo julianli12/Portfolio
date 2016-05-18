@@ -198,7 +198,7 @@ h1.portfolio {
 	background: url(../img/portfolio.png) no-repeat top center; 
 	background-size:50px;
 	; 
-	padding-top: 75px; 
+	padding-top: 50px; 
 }
 h1.job { 
 	text-align: center; 
@@ -280,7 +280,7 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 	margin-top: 5%;
 }
 .portfolio{
-	padding: 95px;
+	padding: 45px;
 	background-color: #F5F4F4;
 }
 .section-1 { background: url(../img/left-box-1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }

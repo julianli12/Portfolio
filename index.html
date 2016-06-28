@@ -1,220 +1,837 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Julian's Portfolio</title>
 
-		<!-- Bootstrap -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/styles.css?v=1.2" rel="stylesheet">
-		<link href="css/queries.css?v=1.2" rel="stylesheet">
-		<link href="css/tabstyles.css" rel="stylesheet">
-		<link href="css/templatemo-style.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/flexslider.css?v=1.2" type="text/css">
-		<link rel="stylesheet" href="css/animate.css" type="text/css">
-		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<head>
 
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<body>
-		<header>
-			<div class="container">
-				<div class="row">
-					<div class="responsive-logo"></div>
-					<div class="pullcontainer">
-						<a href="#" id="pull"><i class="fa fa-bars fa-2x"></i></a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<nav>
-							<div class="logo-holder"></div>
-							<ul class="clearfix">
-								<li><a href="#aboutme">Profile</a></li>
-								<li class="dot">|</li>
-								<li><a href="#resume" class="r_spacer">resume</a></li>
-								<li><a href="#portfolio">Portfolio</a></li>
-								<li class="dot">|</li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-			<div class="hero"></div>
-		</header>
-		<div class="container-fluid intro" id="aboutme">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<img class="section-icon center-block" src="img/profile.png" alt="profile">
-					<h1 class="about">Profile</h1>
-					<div class="clearfix" style="verticle-align:middle;">
-						<div class="left-box">
-							<img src="img/profile2.png" alt="profile" style="width:100%">
-						</div>
-						<div class="right-box">
-							<br><br>
-							  <p><b>I'm a Management Engineering student at the University of Waterloo.</b></p>
-                                    <p>For as long as I could remember, Art had been one of my go to past times. Eventually this led to my interests towards graphics design, photography and illustrations. </P>
+    <title>Julian Li</title> 
 
-                                    <p>Out of love for aesthetic design, I became fascinated with building simple, compelling and intuitive user interfaces. I'm a strong believer that in most cases, having an unforgettable user experience is more important than idea in a start up company.</p>
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-						</div>
-					</div>
+    <!-- Fonts -->
+    <link href="assets/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid work" id="resume">
-			<div class="row" style="height:100vh">
-				<img class="section-icon center-block" src="img/job.png" alt="profile">
-				<h1 class="job">My Resume</h1><br>
-				<img src='img/resume.jpg' style="height:70%; display:block; margin-left:auto; margin-right:auto">
-				<!--
-				<div class="tabs">
-					<nav>
-	    				<ul class="tab-links">
-		       				<li class="active"><a id="#tab1">First Job</a></li>
-		        			<li><a id="#tab2">First Job</a></li>
-		        			<li><a id="#tab3">First Job</a></li>
-		        			<li><a id="#tab4">First Job</a></li>
-		        			<li><a id="#tab5">First Job</a></li>
-	    				</ul>
-	    			</nav>
-					<div class="content-wrap">
-						<section id="tab1" class="tab active"><p>1</p>
-						</section>
-						<section id="tab2" class="tab"><p>2</p>
-						</section>
-						<section id="tab3" class="tab"><p>3</p>
-						</section>
-						<section id="tab4" class="tab"><p>4</p>
-						</section>
-						<section id="tab5" class="tab"><p>5</p>
-						</section>
-					</div>
-			
-				</div><!-- /tabs -->
-			
-				<!-- Pentagon 
-				<div class='circle-container'>
-					<a class='center'><img src='./img/work.png'></a>
-				    <a class='comingsoon1'><img src='./img/piinpoint.png'></a>
-				    <a class='comingsoon2'><img src='./img/eventastic.png'></a>
-				    <a class='comingsoon3'><img src='./img/UP.png'></a>
-				    <a class='comingsoon4'><img src='./img/canada-post.png'></a>
-				    <a class='comingsoon5'><img src='./img/D2L.png'></a>
-				</div>
-			-->
-			</div>
-		</div>
-		<div class="container-fluid portfolio">
-			<h1 class="portfolio" id="portfolio">Portfolio</h1>
-			
-				  <div class="flexslider-wrapper">
+    <!-- Retina Images Plugin -->
+    <script src="assets/js/plugins/retina/retina.min.js"></script>
 
-	                    <div id="slider" class="flexslider">
-	                        <ul class="slides">
-	                            <li><div class="videoWrapper"><iframe style="height: 100%" src="https://www.youtube.com/embed/Vy6K42Ebf6E" frameborder="0" allowfullscreen></iframe></div></li>
-	                            <li><img src="img/slider/Slides2.jpg" alt="UP Express Mockup" ></li>
-	                            <li><img src="img/slider/Slides3.jpg" alt="Zazzle Mockup" ></li>
-	                            <li><img src="img/slider/Slides4.jpg" alt="Poster" ></li>
-	                            <li><img src="img/slider/Slides5.jpg" alt="Illustration 1" ></li>
-	                            <li><img src="img/slider/Slides6.jpg" alt="Illustration 2" ></li>
-	                            <li><img src="img/slider/Slides7.jpg" alt="Illustration 3" ></li>
-	                        </ul>
-	                    </div> <!-- #slider -->
-	                  
-	                    <div id="carousel" class="flexslider">
-	                        <ul class="slides">
-	                            <li><img src="img/slider/thumb1.jpg" alt="Thumbnail 1" /></li>
-	                            <li><img src="img/slider/thumb2.jpg" alt="Thumbnail 2" /></li>
-	                            <li><img src="img/slider/thumb3.jpg" alt="Thumbnail 3" /></li>
-	                            <li><img src="img/slider/thumb4.jpg" alt="Thumbnail 4" /></li>
-	                            <li><img src="img/slider/thumb5.jpg" alt="Thumbnail 5" /></li>
-	                            <li><img src="img/slider/thumb6.jpg" alt="Thumbnail 6" /></li>
-	                            <li><img src="img/slider/thumb7.jpg" alt="Thumbnail 7" /></li>
-	                        </ul>
-	                    </div>  <!-- #carousel -->
+    <!-- Plugin CSS -->
+    <link href="assets/css/plugins/hover/hover.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.carousel/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.carousel/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.carousel/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.css" rel="stylesheet">
+    <link href="assets/css/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-	                </div>
-	            </div>
-	      
-		</div>
-		
-		<section class="sign_up">
-			<div class="container">
-				<h1 class="contact" id="contact">Contact Me</h1>
-				<div class="row">
-					<div class="contact2">
-						
-							<div style="margin-right:5%; width:45%; float:left; "> <a class="mailto" href="mailto:Julianli0624@gmail.com"><img src="img/email.png" alt="email" style="width:100px;"></a></div>
-							<div style="margin-left:5%; width:45%; float:left"> <img src="img/phone.png" alt="email" style="width:100px;"></a>
-			
-					</div>
 
-					<!-- <div class="col-md-6 col-md-offset-3 sign-up">
-						<form name="signup-form">
-							<input class="signup-input" type="email" name="email_address" value="" placeholder="enter your email..." title="Please enter a valid email address." required>
-							<button type="submit" class="submit-btn">GO</button>
-						</form> 
-					</div> -->
-				</div>
-			</div>
-		</section>
-		<footer >
-			<div class="container">
-				<div class="row">
-					<p> Thank You For Your Time! </p>
-				</div>
-			</div>
-		</footer>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+    <link href="assets/css/spectrum.css" rel="stylesheet">
 
-		<div id="preloader">
-            <div id="status">&nbsp;</div>
-        </div><!-- /#preloader -->  
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <div id="wrapper">
+
+        <nav class="navbar navbar-dark navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">
+                        <span class="logo">
+                            <img src="assets/img/logo.png" alt="">
+                        </span>
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#work">Portfolio</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#resume">Experience</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <header class="intro-img intro-dark-bg" style="background-image: url(assets/img/demo-bgs/demo-bg-1.jpg)" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+            <div class="intro-body" data-scrollreveal="move 0 over 1.5s">
+                <div class="container">
+                    <br>
+                    <h1 class="brand-heading">
+                        <span class="text-primary">Welcome</span><br>to my <span class="text-primary">Site!</span>
+                    </h1>
+                
+                </div>
+            </div>
+        </header>
+
+        <section id ="about" class="bg-lighter text-center">
+            <div class="container">
+                <div class="row">
+                    <h2>About Me</h2>
+                    <br>
+                    <div class="col-lg-12 text-center">
+                       
+                        <img src="img/portrait.jpg" alt="">
+                        
+                               
+                    </div>
+                    <div class="col-lg-12">
+                        
+                        <hr class="primary">
+                        <p style="font-family:'Lato', sans-serif">My name is Julian and I'm a Management Engineering student at the University of Waterloo. </p>
+                        <p style="font-family:'Lato', sans-serif">For as long as I could remember, art had been one of my favourite past times. Over time, I've developed interests for graphics design, illustrations and photography. Out of love for aesthetic design, I became fascinated with building simple, compelling and intuitive user interfaces. </p>
+                        <p style="font-family:'Lato', sans-serif">My technical experience as an engineer allowed me to develop my analytical skills and better understand an user's needs. My personal experience in project management helped me develop effective multitasking, organization and time management skills.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <section id="work" class="portfolio-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>My Work</h2>
+                        <hr class="primary">
+                        <ul class="list-inline hidden-xs" id="filters">
+                            <li>
+                                <button data-filter="*" type="button" class="btn btn-primary btn-square btn-raised">All</button>
+                            </li>
+                            <li>
+                                <button data-filter=".prototype" type="button" class="btn btn-primary btn-square btn-raised">Prototype</button>
+                            </li>
+                            <li>
+                                <button data-filter=".mock" type="button" class="btn btn-primary btn-square btn-raised">Mock Ups</button>
+                            </li>
+                            <li>
+                                <button data-filter=".graphics" type="button" class="btn btn-primary btn-square btn-raised">Graphics</button>
+                            </li>
+                            <li>
+                                <button data-filter=".photography" type="button" class="btn btn-primary btn-square btn-raised">Photography</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row" data-scrollreveal="enter bottom over 1.5s">
+                    <div class="isotope">
+                        <div class="col-sm-4 portfolio-item prototype">
+                            <a href="#portfolio-queturn" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="img/icons/queturn.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item mock">
+                            <a href="#portfolio-up" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="img/icons/up.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item graphics">
+                            <a href="#portfolio-worlds" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="img/icons/worlds.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item prototype">
+                            <a href="#portfolio-bcp" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="img/icons/bcp.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item photography">
+                            <a href="#portfolio-p1" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="img/icons/g1.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item mock">
+                            <a href="#portfolio-zazzle" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="img/icons/zazzle.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item photography">
+                            <a href="#portfolio-p2" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="img/icons/ben.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item graphics">
+                            <a href="#portfolio-rage" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="img/icons/g2.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+                        
+                        <div class="col-sm-4 portfolio-item photography">
+                            <a href="#portfolio-murray" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="img/icons/g4.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="blog-1 bg-lighter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Past Experiences</h2>
+                        <hr class="primary mb">
+                    </div>
+                </div>
+                <div class="row blog-row">
+                    <div class="col-md-4 blog-col" data-scrollreveal="enter left over 1.5s">
+                    
+                            <img src="img/work/1.jpg" class="img-responsive" alt="">
+                        <div class="blog-preview-content">
+                            <h3>
+                                Piinpoint
+                            </h3>
+                            <p>Product Developer Co-op</p>
+                            <ul class="meta list-inline">
+                                <li>Summer, 2013</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 blog-col" data-scrollreveal="enter bottom over 1.5s">
+                       
+                            <img src="img/work/2.jpg" class="img-responsive" alt="">
+                      
+                        <div class="blog-preview-content">
+                            <h3>
+                                D2L
+                            </h3>
+                            <p>Project Coordinator Co-op</p>
+                            <ul class="meta list-inline">
+                                <li>Summer, 2015</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 blog-col" data-scrollreveal="enter right over 1.5s">
+                        
+                        <img src="img/work/3.jpg" class="img-responsive" alt="">
+                        
+                        <div class="blog-preview-content">
+                            <h3>
+                                Eventastic
+                            </h3>
+                            <p>Front End Developer Co-op</p>
+                            <ul class="meta list-inline">
+                                <li>Summer, 2013</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 blog-col" data-scrollreveal="enter right over 1.5s">
+                       
+                        <img src="img/work/4.jpg" class="img-responsive" alt="">
+                        
+                        <div class="blog-preview-content">
+                            <h3>
+                               Northbridge
+                            </h3>
+                            <p>Project Coordinator Co-op</p>
+                            <ul class="meta list-inline">
+                                <li>Winter, 2016</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 blog-col" data-scrollreveal="enter right over 1.5s">
+                       
+                            <img src="img/work/6.jpg" class="img-responsive" alt="">
+                       
+                        <div class="blog-preview-content">
+                            <h3>
+                                Canada Post
+                            </h3>
+                            <p>Process Engineer Co-op</p>
+                            <ul class="meta list-inline">
+                                <li>Fall, 2014</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 blog-col" data-scrollreveal="enter right over 1.5s">
+                        
+                            <img src="img/work/7.jpg" class="img-responsive" alt="">
+                      
+                        <div class="blog-preview-content">
+                            <h3>
+                                Metrolinx
+                            </h3>
+                            <p>Business Analyst Co-op</p>
+                            <ul class="meta list-inline">
+                                <li>Winter, 2014</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="contact-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center" >
+                        <h2> Contact Me </h2><br>
+                        <div class="contact2">
+                        <div style="margin-right:5%; width:45%; float:left; "> <a class="mailto" href="mailto:Julianli0624@gmail.com"><img src="img/email.png" alt="email" style="width:100px;"></a></div>
+                        <div style="margin-left:5%; width:45%; float:left"> <img src="img/phone.png" alt="email" style="width:100px;"></a>
         
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery.flexslider.js"></script>
-		<script src="js/scripts.js"></script>
-		<script src="js/modernizr.js"></script>
-		<script src="js/waypoints.min.js"></script>
-		<script>
-			$(document).ready(function() {
-			    $('.tabs .tab-links a').on('click', function(e)  {
-			        var currentAttrValue = $(this).attr('id');
-			 
-			        // Show/Hide Tabs
-			        $('.tabs ' + currentAttrValue).show().siblings().hide();
-			 
-			        // Change/remove current tab to active
-			        $(this).parent('li').addClass('active').siblings().removeClass('active');
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-			        $('.tabs ' + currentAttrValue).fadeIn(400).siblings().hide();
-			 
-			        e.preventDefault();
-			    });
-			});
+        <footer class="footer-1">
+            <div class="upper">
+                <div class="text-center" >
+                    <h5> Thank You For Your Interest! </h5>   
+                </div>
+            </div>
 
-			$(document).ready(function(){
-			    $('.dropdown').change (function(e)  {
-			        $('.tbl').hide(); 
-			       //find select's parent and hide its corresponding divs only
-			       $("#" + this.value).show();
-			    });
-			  }); 
+        </footer>
 
-		</script>
-	</body>
+    </div>
+
+     <!-- queturn -->
+    <div id="portfolio-queturn" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row first">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Queturn Prototype</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <iframe src="https://www.youtube.com/embed/Vy6K42Ebf6E" width="400" height="225" style="border: none;"></iframe>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Project Description:</h3>
+                        <p></p>
+                        <p style="font-family:'Lato', sans-serif">Queturn is a social jukebox app where multiple users can contribute to the same music playlist. This app was designed for social gatherings where everyone can vote and contribute to the music playing at the venue.</p>
+                        <p style="font-family:'Lato', sans-serif">This video was created to demonstrate the high fidelity prototype, features and functionalities of the app. This prototype was created using Axure.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Project Details:</h3>
+                        <ul class="list-unstyled project-details">
+                            <li>
+                                <strong>Client:</strong> Human Computer Interaction Design Project</li>
+                            <li>
+                                <strong>Services:</strong> App Design, Prototyping, Icon Design, Interface Design</li>
+                            <li>
+                                <strong>Date:</strong> Fall, 2015</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Up Express -->
+    <div id="portfolio-up" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row first">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Up Express Web Integration Mock Up</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="project-details-carousel2" class="owl-carousel owl-theme">
+
+                           <div class="item">
+                                <img src="img/up/1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/up/2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/up/3.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Project Description:</h3>
+                        <p></p>
+                        <p style="font-family:'Lato', sans-serif">This mock up project was completed during the design phase of the Union Pearson Express train service based in Toronto. UP Express needed to integrate their information onto the Pearson Airport website.</p>
+                        <p style="font-family:'Lato', sans-serif">I designed this set of mock ups to illustrate to the vendor of the new addition's seemless integration with the existing landing page, as well as the mutual benefit of having such information.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Project Details:</h3>
+                        <ul class="list-unstyled project-details">
+                            <li>
+                                <strong>Client:</strong> UP Express</li>
+                            <li>
+                                <strong>Services:</strong> Mock Ups, Web Design</li>
+                            <li>
+                                <strong>Date:</strong> Winter, 2014</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- abstract skeptch Worlds-->
+
+    <div id="portfolio-worlds" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row first">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Worlds</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="project-details-carousel" class="owl-carousel owl-theme" style="">
+
+                           <div class="item">
+                                <img src="img/worlds/1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/worlds/2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/worlds/3.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Project Description:</h3>
+                        <p></p>
+                        <p style="font-family:'Lato', sans-serif">Worlds is my first attempt at abstract pencil illustration. I was inspired by the concept of everyone's perception is different and opinions are formed through their perception on life. Based on that concept I came up with this abstract illustration where things may appear differently depending on who is looking at the picture.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Project Details:</h3>
+                        <ul class="list-unstyled project-details">
+                            <li>
+                                <strong>Client:</strong> Personal Project</li>
+                            <li>
+                                <strong>Services:</strong> Illustration</li>
+                            <li>
+                                <strong>Date:</strong> Winter, 2016</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bcp -->
+    <div id="portfolio-bcp" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row first">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">BCP Prototype</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="project-details-carousel3" class="owl-carousel owl-theme">
+
+                           <div class="item">
+                                <img src="img/bcp/1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/bcp/2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/bcp/3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/bcp/4.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/bcp/5.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/bcp/6.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/bcp/7.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Project Description:</h3>
+                        <p></p>
+                        <p style="font-family:'Lato', sans-serif">BCP is a trading platform I am currently working on. This medium fidality prototype illustrates some of the main features that will be included in this platform. The menu option will be the main navigation function between its features due to the simple usability and effective utility.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Project Details:</h3>
+                        <ul class="list-unstyled project-details">
+                            <li>
+                                <strong>Client:</strong> Personal Project</li>
+                            <li>
+                                <strong>Services:</strong> Prototyping, App Design, Icon Design, Interface Design</li>
+                            <li>
+                                <strong>Date:</strong> Current </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- p1 -->
+    <div id="portfolio-p1" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row first">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Nature Shot</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="project-details-carousel4" class="owl-carousel owl-theme">
+
+                           <div class="item">
+                                <img src="img/photography/1.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Description:</h3>
+                        <p></p>
+                        <p style="font-family:'Lato', sans-serif">Algunquin Park, lily pad field</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- zazzle -->
+     <div id="portfolio-zazzle" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row first">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Zazzle Mock Up</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="project-details-carousel5" class="owl-carousel owl-theme">
+
+                           <div class="item">
+                                <img src="img/zazzle/1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/zazzle/2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/zazzle/3.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Project Description:</h3>
+                        <p></p>
+                        <p style="font-family:'Lato', sans-serif">During an interview with Zazzle, I had ideas for alternative designs that may improve the user experience. I decided to mock up these ideas based on their existing site to better deliver the concepts.</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Project Details:</h3>
+                        <ul class="list-unstyled project-details">
+                            <li>
+                                <strong>Client:</strong> Zazzle</li>
+                            <li>
+                                <strong>Services:</strong> Mock Ups, Web Design, Icon design</li>
+                            <li>
+                                <strong>Date:</strong> Fall, 2015</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <!-- p2 -->
+    <div id="portfolio-p2" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row first">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Ben Carroll</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="project-details-carousel6" class="owl-carousel owl-theme">
+
+                           <div class="item">
+                                <img src="img/photography/2.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Description:</h3>
+                        <p></p>
+                        <p style="font-family:'Lato', sans-serif">Photography</p>
+                        <p style="font-family:'Lato', sans-serif">Festival: Summertime Blues 2016</p>
+                        <p style="font-family:'Lato', sans-serif">Performer: Ben Carroll</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- rage -->
+
+    <div id="portfolio-rage" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row first">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Rage</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="project-details-carousel7" class="owl-carousel owl-theme" style="">
+
+                           <div class="item">
+                                <img src="img/worlds/4.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Project Description:</h3>
+                        <p></p>
+                        <p style="font-family:'Lato', sans-serif">Rage is my attempt at fantasy illustration. I was inspired by the book series Eragon and decided to sketch based on a mental picture.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Project Details:</h3>
+                        <ul class="list-unstyled project-details">
+                            <li>
+                                <strong>Client:</strong> Personal Project</li>
+                            <li>
+                                <strong>Services:</strong> Illustration</li>
+                            <li>
+                                <strong>Date:</strong> Winter, 2014</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Murry Farms -->
+     <div id="portfolio-murray" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row first">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Sunset</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="project-details-carousel8" class="owl-carousel owl-theme">
+
+                           <div class="item">
+                                <img src="img/photography/3.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Description:</h3>
+                        <p></p>
+                        <p style="font-family:'Lato', sans-serif">Nature Photography</p>
+                        <p style="font-family:'Lato', sans-serif">Location: Murray Farms</p>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Core JavaScript Files -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
+
+    <!-- Plugin JavaScript Files -->
+    <script src="assets/js/plugins/jquery.easing/jquery.easing.1.3.js"></script>
+    <script src="assets/js/plugins/jquery.fitvids/jquery.fitvids.js"></script>
+    <script src="assets/js/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.min.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/jquery.tubular/jquery.tubular.1.0.js"></script>
+    <script src="assets/js/plugins/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/js/plugins/scrollReveal/scrollReveal.js"></script>
+    <script src="assets/js/plugins/stellar/stellar.js"></script>
+    <script src="assets/js/plugins/SmoothScroll/SmoothScroll.js"></script>
+    <script src="assets/js/plugins/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+    <script src="assets/js/contact_me.js"></script>
+    <script src="assets/js/plugins/isotope/isotope.pkgd.min.js"></script>
+
+    <!-- Spectrum JavaScript Files -->
+    <script src="assets/js/spectrum.nav.js"></script>
+    <script src="assets/js/spectrum.js"></script>
+
+</body>
+
 </html>

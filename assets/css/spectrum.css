@@ -494,8 +494,8 @@ a.light-text:focus {
     display: block;
     width: 100%;
     background-color: black;
-    background-image: url('../img/diagonal-noise.png');
-    opacity: 0.3;
+    
+    opacity: 0.1;
     position: absolute;
     top: 0;
     left: 0;

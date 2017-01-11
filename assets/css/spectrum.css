@@ -322,7 +322,7 @@ a.light-text:focus {
     right: 0;
     bottom: 0;
     height: 3px;
-    background: #439ad5;
+    /*background: #439ad5;*/
     content: '';
     opacity: 0;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -361,7 +361,7 @@ a.light-text:focus {
   .navbar-dark .nav li.active a,
   .navbar-light .nav li.active a {
     background-color: transparent;
-    color: rgba(67, 154, 213, 0) !important;
+    color: #439ad5 !important;
   }
   .navbar-dark.top-nav-collapse,
   .navbar-light.top-nav-collapse {
@@ -383,7 +383,7 @@ a.light-text:focus {
     color: #f4f5f7;
   }
   .navbar-dark.top-nav-collapse .nav li a:after {
-    background: #439ad5;
+    background: rgba(244, 245, 247, 0);
   }
   .navbar-dark.top-nav-collapse .nav li a:hover,
   .navbar-dark.top-nav-collapse .nav li a:focus,

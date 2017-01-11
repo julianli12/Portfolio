@@ -361,7 +361,7 @@ a.light-text:focus {
   .navbar-dark .nav li.active a,
   .navbar-light .nav li.active a {
     background-color: transparent;
-    color: #439ad5 !important;
+    color: rgba(67, 154, 213, 0) !important;
   }
   .navbar-dark.top-nav-collapse,
   .navbar-light.top-nav-collapse {

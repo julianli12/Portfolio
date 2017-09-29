@@ -27,7 +27,7 @@ $(function(){
       }
     });
 
-    //Use smooth scrolling when clicking on navigation
+  //Use smooth scrolling when clicking on navigation
   $('.navbar a[href*=\\#]:not([href=\\#])').click(function() {
     if (location.pathname.replace(/^\//,'') ===
       this.pathname.replace(/^\//,'') &&
@@ -50,6 +50,21 @@ $(function(){
     /*auto warp to first, keyboard command
     warp: false,
     keyboard: false*/
+  });
+
+  $('#design-toggle').click(function(){
+    $('#code').removeClass("in");
+    $('#analyze').removeClass("in");
+  });
+
+  $('#code-toggle').click(function(){
+    $('#design').removeClass("in");
+    $('#analyze').removeClass("in");
+  });
+
+  $('#analyze-toggle').click(function(){
+    $('#code').removeClass("in");
+    $('#design').removeClass("in");
   });
 
   //automately generate carousel indicator

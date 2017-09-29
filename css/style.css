@@ -23,11 +23,11 @@ body{
 }
 
 hr{
-  margin:50px 20px;
+  margin:60px 0px;
 }
 
 .space{
-  margin-top:35px;
+  margin-top:30px;
 }
 
 h1{
@@ -156,6 +156,44 @@ header .inbody .navbar-toggle{
   margin-top:60px;
 }
 
+#Experiences img{
+  width:140px;
+}
+
+.words{
+  background-color:#eee;
+  margin:0px;
+  margin-top:50px;
+  margin-bottom:-60px;
+  width:100%;
+}
+
+#design{
+  transition: all .5s ease-out;
+}
+
+#code{
+  transition: all .5s ease-out;
+}
+
+#analyze{
+  transition: all .5s ease-out;
+}
+
+.fa {
+  font-size:25px;
+}
+
+.tools .item{
+  margin:60px 0;
+}
+
+.tools img{
+  width:50px
+}
+
+
+
 /*  portfolio  */
 #portfolio{
   padding:0;
@@ -193,6 +231,8 @@ blockquote{
   border-right: 3px solid white;
 }
 
-#Experiences img{
-  width:140px;
+.footer .fa {
+  font-size: 40px !important;
+  margin:20px;
+  color: #4D9DE0;
 }

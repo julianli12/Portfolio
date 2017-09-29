@@ -157,9 +157,12 @@ header .inbody .navbar-toggle{
 }
 
 #Experiences img{
-  width:140px;
+  width:100px;
 }
 
+#Experiences .space{
+  margin-bottom:30pxk
+}
 .words{
   background-color:#eee;
   margin:0px;

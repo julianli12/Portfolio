@@ -45,12 +45,13 @@ $(function(){
 
   //carousel auto start
   $('.carousel').carousel({
-    interval: 5000,
+    interval: 8000,
     pause: false,
     /*auto warp to first, keyboard command
     warp: false,
     keyboard: false*/
   });
+
 
   $('#design-toggle').click(function(){
     $('#code').removeClass("in");

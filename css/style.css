@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
-.navbar{
-  border:0;
-}
-
 img{
   max-width: 300px
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+a{
+  color:#4D9DE0;
 }
 
 body{
@@ -42,15 +46,15 @@ li{
   font-size:16px
 }
 
-/*  navbar  */
+/*---------------  navbar  ---------------*/
 header .navbar{
   padding:15px 0;
+  border-color: transparent;
   transition: all .5s ease-out;
 }
 
 header .navbar-default{
   background-color: transparent;
-  border: none;
 }
 
 header .navbar-default .navbar-nav a{
@@ -97,13 +101,12 @@ header .navbar-default .navbar-nav .active a:focus{
   background-color:#BEDBF3;
 }
 
-/*nav in body*/
+/*--------------- nav in body ---------------*/
 
 header .inbody{
   background: white;
-  border-bottom: #BEDBF3;
+  border-color: #eee;
 }
-
 
 header .navbar.inbody{
   padding:5px;
@@ -112,7 +115,7 @@ header .inbody .navbar-toggle{
   margin:3px 0;
 }
 
-/* carousel */
+/*--------------- carousel ---------------*/
 .carousel.fade{
   opacity:1;
 }
@@ -150,7 +153,7 @@ header .inbody .navbar-toggle{
   color:#4D9DE0;
 }
 
-/*   about    */
+/*---------------   about    ---------------*/
 .skills img{
   width:100px;
   margin-top:60px;
@@ -197,32 +200,32 @@ header .inbody .navbar-toggle{
 
 
 
-/*  portfolio  */
+/*---------------  portfolio  ---------------*/
 #portfolio{
   padding:0;
 }
 
 #bid{
-  background-image: url('../img/carousel-exoticanimals.jpg');
+  background-image: url('../img/4bid.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #swapp{
-  background-image: url('../img/carousel-exoticanimals.jpg');
+  background-image: url('../img/swapp.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #jli{
-  background-image: url('../img/carousel-exoticanimals.jpg');
+  background-image: url('../img/jli.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #tank{
-  background-image: url('../img/carousel-exoticanimals.jpg');
+  background-image: url('../img/tank.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -232,10 +235,114 @@ blockquote{
   min-height:400px !important;
   border-left: 3px solid white;
   border-right: 3px solid white;
+  padding: 0px
 }
 
 .footer .fa {
   font-size: 40px !important;
   margin:20px;
   color: #4D9DE0;
+}
+
+.outter{
+  display: table;
+  min-height:400px;
+  width: 100%;
+}
+
+.middle{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 255, 255,0.7);
+}
+
+blockquote:hover .overlay {
+  opacity: 1;
+}
+
+.intro {
+  color: #4D9DE0;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.quote .fa{
+  font-size: 40px
+}
+/*---------------    modals     ----------------*/
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.modal-content p{
+  font-size:16px;
+  margin:15px
+}
+.modal-content h3{
+
+  margin-top:30px
+}
+
+.modal{
+  padding:3px !important;
+}
+
+.close{
+  margin:30px;
+  font-size:22px;
+  position:fixed;
+  left:90%;
+  z-index: 110;
+}
+
+@media (max-width:480px) {
+  .close{
+    left:85%
+  }
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-control.left {
+  background-image:none;
+}
+.carousel-control.right {
+  background-image:none;
 }
